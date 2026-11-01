@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="十个单词，从今天开始。无需联网的零基础英语拼写练习。">
+<title>每天一点 · 英语复习</title>
+<style>
+:root{color-scheme:light;--ink:#223c35;--muted:#60736b;--green:#28664e;--paper:#fbfaf6;--line:#dedfd4;--soft:#eaf0e7;--orange:#9e491e}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6}button,input{font:inherit}button{cursor:pointer;min-height:50px;border-radius:12px;border:1px solid var(--line);padding:11px 21px;font-weight:650;background:white;color:var(--ink)}button:hover{filter:brightness(.96)}button:disabled{cursor:default;opacity:.55}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #d38e41;outline-offset:4px}header{max-width:1060px;margin:auto;padding:26px 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-size:21px;font-weight:750;display:flex;align-items:center;gap:10px}.mark{background:var(--green);color:white;width:34px;height:34px;display:grid;place-items:center;border-radius:11px;font-size:17px}.tag{font-size:13px;color:var(--muted)}main{max-width:1060px;margin:auto;padding:38px 28px 28px}.intro{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:28px}.eyebrow{font-size:13px;letter-spacing:2px;color:var(--green);font-weight:700;margin:0 0 6px}h1{font-size:clamp(28px,4vw,38px);line-height:1.3;margin:0 0 10px;letter-spacing:-1px}.intro p:last-child{margin:0;color:var(--muted)}.date{font-size:14px;color:var(--muted);white-space:nowrap}.layout{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:24px}.practice{background:white;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 8px 30px #20372b04}.mode-bar{display:flex;background:#f2f3ed;border-radius:12px;padding:4px;gap:4px}.mode-bar button{flex:1;min-height:44px;border:0;background:transparent;padding:8px}.mode-bar [aria-pressed=true]{background:white;box-shadow:0 2px 5px #0000000a}.progress-label{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin:25px 0 8px}.track{height:6px;background:#eef0e9;border-radius:6px;overflow:hidden}.fill{height:100%;width:0;background:#71a382;transition:width .2s}.question{text-align:center;padding:26px 0 24px}.question-label{font-size:14px;color:var(--muted);margin:0 0 12px}.word{font-size:clamp(38px,7vw,52px);font-weight:700;line-height:1.3;margin:0;overflow-wrap:anywhere}.word-meta{font-size:14px;color:var(--muted);margin:10px 0 0}label{display:block;font-size:14px;font-weight:650;margin-bottom:8px}input{width:100%;height:58px;border:1.5px solid #becabd;border-radius:12px;padding:12px 16px;font-size:23px;letter-spacing:1px;color:var(--ink);background:#fff}input:disabled{background:#f7f8f4;color:#53655b}.actions{display:flex;gap:10px;margin-top:14px}.primary{background:var(--green);border-color:var(--green);color:white;flex:1}.hint{font-weight:500}.feedback{margin-top:18px;padding:14px 16px;border-radius:12px;background:var(--soft);font-size:16px;overflow-wrap:anywhere}.feedback.wrong{background:#fff1e6;color:#86411d}.feedback strong{display:block;font-size:21px;margin-top:3px}.helper{color:var(--muted);font-size:13px;margin:17px 0 0;text-align:center}.panel{background:#edf1e8;border:1px solid #dce4d6;border-radius:20px;padding:23px}.panel h2{font-size:18px;margin:0}.stats{margin:22px 0;display:grid;grid-template-columns:1fr 1fr;gap:14px}.stat-num{font-size:34px;font-weight:700;line-height:1.2}.stat-label{font-size:13px;color:var(--muted);margin-top:6px}.accuracy{font-size:14px;color:var(--muted);border-top:1px solid #d6dfcf;padding-top:14px}.mistakes{background:transparent;border:1px solid var(--line);border-radius:20px;margin-top:18px;padding:23px}.mistakes h2{font-size:18px;margin:0}.mistakes p{font-size:14px;color:var(--muted);margin:10px 0 14px}.mistakes button{width:100%;font-size:15px}.note{font-size:12px;color:var(--muted);margin:18px 6px;line-height:1.8}.storage-warning{padding:12px 16px;background:#fff1e6;color:#86411d;border-radius:10px;font-size:14px;margin-bottom:18px}.completion{text-align:center;padding:44px 0 28px}.completion .word{font-size:36px}.completion p{color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px}[hidden]{display:none!important}@media(max-width:760px){header{padding:18px 20px}.tag{font-size:12px}main{padding:28px 18px}.intro{display:block}.date{display:block;margin-top:12px}.layout{grid-template-columns:1fr}.practice{padding:20px}.sidebar{display:grid;grid-template-columns:1fr 1fr;gap:14px}.panel,.mistakes{padding:18px;border-radius:16px}.mistakes{margin:0}.note{grid-column:1/-1;margin:0 4px}.stats{margin:16px 0}.stat-num{font-size:28px}.question{padding:24px 0}.actions button{padding:11px 14px}}@media(max-width:400px){.sidebar{grid-template-columns:1fr}.note{grid-column:auto}.tag{display:none}.actions{flex-direction:column}.mode-bar button{font-size:14px}}@media(prefers-reduced-motion:reduce){.fill{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="brand"><span class="mark" aria-hidden="true">Aa</span>每天一点</div><span class="tag">零基础英语 · 第一课</span></header>
+<main>
+<section class="intro"><div><p class="eyebrow">一步一步，记得更牢</p><h1>今天，从十个单词开始。</h1><p>看中文，拼英文。忘记也没关系，再练一次。</p></div><time class="date" id="date"></time></section>
+<div id="storage-warning" class="storage-warning" role="status" hidden>浏览器暂时无法保存记录。你仍然可以练习，但关闭或刷新后，本次新记录可能丢失。</div>
+<div class="layout">
+<section class="practice" aria-label="单词拼写练习">
+<nav class="mode-bar" aria-label="练习模式"><button id="all-mode" type="button" aria-pressed="true">全部单词 · 10</button><button id="wrong-mode" type="button" aria-pressed="false">错词重练 · 0</button></nav>
+<div class="progress-label"><span id="mode-label">全部单词</span><span id="progress-text"></span></div><div class="track" role="progressbar" aria-label="本轮进度" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" id="progress"><div class="fill" id="fill"></div></div>
+<div id="exercise">
+<div class="question"><p class="question-label">这个词，用英文怎么拼？</p><h2 class="word" id="meaning"></h2><p class="word-meta">先自己想一想，再输入答案</p></div>
+<form id="answer-form" novalidate><label for="answer">你的英文答案</label><input id="answer" type="text" placeholder="在这里输入英文" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="feedback" maxlength="100"><div class="actions"><button class="primary" type="submit" id="submit">检查答案</button><button class="hint" type="button" id="reveal">查看答案</button><button class="primary" type="button" id="next" hidden>下一个单词 →</button></div></form>
+<div class="feedback" id="feedback" role="status" aria-live="polite" hidden></div><p class="helper">按 Enter 检查答案；作答后再按一次，继续下一题。</p>
+</div>
+<div class="completion" id="completion" hidden><p class="eyebrow">每一次练习，都算数</p><h2 class="word" id="complete-title" tabindex="-1">这一轮完成了！</h2><p id="complete-text"></p><button class="primary" type="button" id="restart">再练一轮</button></div>
+</section>
+<aside class="sidebar"><section class="panel" aria-label="今日学习记录"><h2>今天的小进步</h2><div class="stats"><div><div class="stat-num" id="attempts">0</div><div class="stat-label">练习题数</div></div><div><div class="stat-num" id="correct">0</div><div class="stat-label">独立答对</div></div></div><div class="accuracy" id="accuracy">开始第一题吧</div></section>
+<section class="mistakes"><h2>把忘记的，再记一遍</h2><p id="mistake-summary">错词会自动收在这里，随时回来复习。</p><button type="button" id="review">练习错词（0）</button></section>
+<p class="note">查看答案也计入练习，但不计为答对。错词在之后独立答对时移出。<br>记录仅保存在当前设备的当前浏览器。清除浏览器数据会删除记录，不同设备不会同步。</p></aside>
+</div><footer>不用一次记住所有单词，今天比昨天多记住一个就好。</footer>
+</main>
+<script>
+'use strict';
+const WORDS=[{id:'egg',zh:'鸡蛋'},{id:'rice',zh:'米饭'},{id:'water',zh:'水'},{id:'tea',zh:'茶'},{id:'coffee',zh:'咖啡'},{id:'milk',zh:'牛奶'},{id:'bread',zh:'面包'},{id:'juice',zh:'果汁'},{id:'apple',zh:'苹果'},{id:'handbag',zh:'手提包'}];
+const KEY='everyday-english-v1';
+const $=id=>document.getElementById(id);
+const known=id=>WORDS.some(w=>w.id===id);
+let storageOK=true;
+function fresh(){return {version:1,stats:{},mistakes:[],session:null};}
+function load(){
+ try{
+  const raw=localStorage.getItem(KEY);if(!raw)return fresh();
+  const s=JSON.parse(raw);if(!s||s.version!==1||!s.stats||Array.isArray(s.stats)||typeof s.stats!=='object'||!Array.isArray(s.mistakes))throw Error('Invalid saved data');
+  const clean=fresh();
+  for(const [date,n] of Object.entries(s.stats)){if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&Number.isSafeInteger(n?.attempts)&&Number.isSafeInteger(n?.correct)&&n.correct>=0&&n.attempts>=n.correct)clean.stats[date]={attempts:n.attempts,correct:n.correct};}
+  clean.mistakes=[...new Set(s.mistakes.filter(known))];
+  const q=s.session;
+  if(q&&['all','wrong'].includes(q.mode)&&Array.isArray(q.ids)&&q.ids.length<=10&&q.ids.every(known)&&new Set(q.ids).size===q.ids.length&&Number.isInteger(q.index)&&q.index>=0&&q.index<=q.ids.length&&[null,'correct','wrong','revealed'].includes(q.result))clean.session={mode:q.mode,ids:q.ids,index:q.index,result:q.result};
+  return clean;
+ }catch(e){storageOK=false;return fresh();}
+}
+let state=load();
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));storageOK=true;}catch(e){storageOK=false;}$('storage-warning').hidden=storageOK;}
+function dayKey(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
+function shuffled(ids){const a=ids.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function start(mode,focus=true){state.session={mode,ids:shuffled(mode==='wrong'?state.mistakes:WORDS.map(w=>w.id)),index:0,result:null};save();render();if(focus)focusCurrent();}
+function current(){const q=state.session;return WORDS.find(w=>w.id===q.ids[q.index]);}
+function focusCurrent(){if(current())$('answer').focus();else $('complete-title').focus();}
+function renderStats(){
+ const today=state.stats[dayKey()]||{attempts:0,correct:0};
+ const d=new Date();$('date').textContent=d.toLocaleDateString('zh-CN',{month:'long',day:'numeric',weekday:'long'});$('date').dateTime=dayKey();
+ $('attempts').textContent=today.attempts;$('correct').textContent=today.correct;$('accuracy').textContent=today.attempts?`今日独立答对率 ${Math.round(today.correct/today.attempts*100)}%`:'开始第一题吧';
+ const n=state.mistakes.length;$('wrong-mode').textContent=`错词重练 · ${n}`;$('review').textContent=`练习错词（${n}）`;$('review').disabled=!n;
+ $('mistake-summary').textContent=n?`还有 ${n} 个单词值得再练一次。独立答对后，会自动移出错词列表。`:'目前没有待复习的错词，继续保持。';
+ $('storage-warning').hidden=storageOK;
+}
+function render(){
+ renderStats();const q=state.session;const w=current();const done=Math.min(q.ids.length,q.index+(q.result?1:0));
+ $('all-mode').setAttribute('aria-pressed',String(q.mode==='all'));$('wrong-mode').setAttribute('aria-pressed',String(q.mode==='wrong'));$('mode-label').textContent=q.mode==='all'?'全部单词':'错词重练';
+ $('progress-text').textContent=w?`第 ${q.index+1} / ${q.ids.length} 题`:`已完成 ${q.ids.length} 题`;$('fill').style.width=`${q.ids.length?done/q.ids.length*100:0}%`;$('progress').setAttribute('aria-valuemax',String(q.ids.length||1));$('progress').setAttribute('aria-valuenow',String(done));
+ $('exercise').hidden=!w;$('completion').hidden=!!w;
+ if(!w){$('complete-title').textContent=q.ids.length?'这一轮完成了！':'暂时没有错词';$('complete-text').textContent=q.ids.length?(state.mistakes.length?`还有 ${state.mistakes.length} 个错词，可以单独再练一次。`:'这轮练习已完成，可以再练一轮巩固记忆。'):'先去练习全部单词，遇到不会的会自动收进来。';$('restart').textContent=q.mode==='wrong'&&state.mistakes.length?'再练一轮错词':'再练全部单词';return;}
+ $('meaning').textContent=w.zh;$('answer').disabled=!!q.result;$('answer').value=q.result?w.id:'';$('submit').hidden=!!q.result;$('reveal').hidden=!!q.result;$('next').hidden=!q.result;$('next').textContent=q.index===q.ids.length-1?'查看本轮结果 →':'下一个单词 →';
+ const feedback=$('feedback');feedback.hidden=!q.result;feedback.classList.toggle('wrong',!!q.result&&q.result!=='correct');feedback.replaceChildren();
+ if(q.result){const text=document.createElement('span');text.textContent=q.result==='correct'?'答对了，继续保持！':q.result==='revealed'?'记住这个拼写，下次再自己试试。':'再记一遍，下一次会更熟悉。';const answer=document.createElement('strong');answer.textContent=`${w.id} · ${w.zh}`;feedback.append(text,answer);}
+}
+function finish(result){
+ const q=state.session,w=current();if(!w||q.result)return;
+ q.result=result;const key=dayKey();const n=state.stats[key]||(state.stats[key]={attempts:0,correct:0});n.attempts++;
+ if(result==='correct'){n.correct++;state.mistakes=state.mistakes.filter(id=>id!==w.id);}else if(!state.mistakes.includes(w.id)){state.mistakes.push(w.id);}
+ save();render();$('next').focus();
+}
+function advance(){if(!current()||!state.session.result)return;state.session.index++;state.session.result=null;save();render();focusCurrent();}
+$('answer-form').addEventListener('submit',event=>{event.preventDefault();if(state.session.result){advance();return;}const value=$('answer').value.trim().toLowerCase();if(!value){$('feedback').hidden=false;$('feedback').classList.add('wrong');$('feedback').textContent='先输入英文，或者点击“查看答案”。';$('answer').focus();return;}finish(value===current().id?'correct':'wrong');});
+$('reveal').addEventListener('click',()=>finish('revealed'));$('next').addEventListener('click',advance);
+$('all-mode').addEventListener('click',()=>start('all'));$('wrong-mode').addEventListener('click',()=>start('wrong'));$('review').addEventListener('click',()=>start('wrong'));
+$('restart').addEventListener('click',()=>start(state.session.mode==='wrong'&&state.mistakes.length?'wrong':'all'));
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)renderStats();});
+window.addEventListener('focus',renderStats);
+if(!state.session)start('all',false);else render();
+</script>
+</body>
+</html>
